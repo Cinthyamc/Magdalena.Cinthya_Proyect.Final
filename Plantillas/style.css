@@ -1,0 +1,24 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+   
+    font-family: sans-serif;
+    background-color: teal;
+    background-image: url("static/foto-borrosa.PNG");
+}
+.navbar-nav li
+{
+    padding: 0 20px;
+}
+.navbar-nav li a
+{
+    color: rgb(154, 186, 231);
+}
+.navbar-nav{
+    background-color: teal;
+}
