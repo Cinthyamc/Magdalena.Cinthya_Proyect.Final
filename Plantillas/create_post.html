@@ -1,0 +1,10 @@
+
+{% block content %}
+  <h2>Create Post</h2>
+  <form method="POST" action="{% url 'create_post' %}">
+    {% csrf_token %}
+    <textarea name="content" required maxlength="200"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+  <a href="http://127.0.0.1:8000/news/">Back to Post List</a>
+{% endblock %}
